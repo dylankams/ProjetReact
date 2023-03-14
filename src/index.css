@@ -11,3 +11,154 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/*  Header  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6dbdf;
+}
+
+.logo img {
+  width: 100px;
+  left: 100px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1 #0c0c0c;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons img {
+  width: 40px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  right: 100px;
+}
+
+.icons i {
+  font-size: 30px;
+  color: #555;
+  margin-left: 10px;
+}
+
+
+/* Body */
+
+.body {
+  display: flex;
+  height: 100vh;
+  background-color: #daeaf3;
+}
+
+.sidebar {
+  background-color: #666b6c;
+  color: #fff;
+  padding: 20px;
+  width: 250px;
+}
+
+.sidebar a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.has-submenu > a {
+  position: relative;
+}
+
+.has-submenu > a .fas {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+}
+
+.has-submenu ul {
+  display: none;
+}
+
+.has-submenu:hover > ul {
+  display: block;
+}
+
+.has-submenu li:hover {
+  background-color: #a8dadc;
+}
+
+.has-submenu i.fas.fa-chevron-right {
+  margin-left: auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.has-submenu.active i.fas.fa-chevron-right {
+  transform: rotate(90deg);
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #b6dbdf;
+  color: #181918;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.copy {
+  font-size: 14px;
+  color: #999;
+}
+
+.link {
+  font-size: 14px;
+  color: #999;
+  text-decoration: none;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
