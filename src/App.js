@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Body from './Components/Body';
+import Main from './Components/Main';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <Body />
+        <Main />
       </main>
       <footer>
         <Footer />
